@@ -3,77 +3,30 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Control Final</title>
+<title>Control</title>
 
 <style>
-body {
-  margin: 0;
-  font-family: Arial, sans-serif;
-  background-color: #0d2c6c;
-  color: white;
-  display: flex;
-  justify-content: center;
-}
-
-.container {
-  width: 100%;
-  max-width: 400px;
-  padding: 20px;
-  text-align: center;
-}
-
-.logo img {
-  width: 180px;
-  filter: brightness(0) invert(1);
-}
-
-.title {
-  font-size: 26px;
-  font-weight: bold;
-  margin: 15px 0;
-}
-
-.buttons {
-  display: flex;
-  flex-direction: column;
-  gap: 15px;
-}
-
-.btn {
-  background: white;
-  color: #0d2c6c;
-  padding: 16px;
-  border-radius: 12px;
-  font-weight: bold;
-  text-decoration: none;
-}
-
-.back {
-  margin-top: 20px;
-  display: inline-block;
-  color: white;
-  text-decoration: underline;
-}
+body { margin:0; font-family:Arial; background:#0d2c6c; color:white; display:flex; justify-content:center;}
+.container { max-width:400px; width:100%; padding:20px; text-align:center;}
+.logo img { width:150px; filter: brightness(0) invert(1);}
+.title { margin:20px 0; font-size:24px;}
+.btn { display:block; background:white; color:#0d2c6c; padding:16px; margin:10px 0; border-radius:10px; text-decoration:none; font-weight:bold;}
+.back { color:white; margin-top:15px; display:block;}
 </style>
 </head>
 
 <body>
 <div class="container">
 
-  <div class="logo">
-    <img src="logo.png">
-  </div>
+<div class="logo"><img src="logo.png"></div>
+<div class="title">LAMINADO</div>
 
-  <div class="title">LAMINADO</div>
+<a href="ctl1.html" class="btn">CTL1</a>
+<a href="cont.html" class="btn">CONT</a>
+<a href="ctl2.html" class="btn">CTL2</a>
+<a href="ctl5.html" class="btn">CTL5</a>
 
-  <div class="buttons">
-    <a href="#" class="btn">CTL1</a>
-    <a href="#" class="btn">CONT</a>
-    <a href="#" class="btn">CTL2</a>
-    <a href="#" class="btn">CTL5</a>
-  </div>
-
-  <a href="index.html" class="back">← Regresar</a>
+<a href="index.html" class="back">← Regresar</a>
 
 </div>
 </body>

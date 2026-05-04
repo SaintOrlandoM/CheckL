@@ -1,108 +1,62 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Laminado - Checklist</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Laminado</title>
 
-  <style>
-    body {
-      margin: 0;
-      font-family: Arial, sans-serif;
-      background-color: #0d2c6c; /* Azul Saint-Gobain */
-      color: white;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: space-between;
-      height: 100vh;
-    }
+<style>
+body {
+  margin: 0;
+  font-family: Arial;
+  background: #0d2c6c;
+  color: white;
+  display: flex;
+  justify-content: center;
+}
 
-    .container {
-      width: 100%;
-      max-width: 400px;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: space-between;
-      height: 100%;
-      padding: 20px;
-      box-sizing: border-box;
-    }
+.container {
+  width: 100%;
+  max-width: 400px;
+  padding: 20px;
+  text-align: center;
+}
 
-    .logo {
-      margin-top: 20px;
-    }
+.logo img {
+  width: 200px;
+  filter: brightness(0) invert(1);
+}
 
-    .logo img {
-      width: 220px;
-    }
+.title {
+  font-size: 28px;
+  margin: 30px 0;
+}
 
-    .title {
-      font-size: 28px;
-      font-weight: bold;
-      letter-spacing: 2px;
-      margin: 20px 0;
-    }
-
-    .buttons {
-      width: 100%;
-      display: flex;
-      flex-direction: column;
-      gap: 20px;
-    }
-
-    .btn {
-      background-color: white;
-      color: #0d2c6c;
-      border: none;
-      padding: 18px;
-      font-size: 18px;
-      font-weight: bold;
-      border-radius: 12px;
-      text-align: center;
-      text-decoration: none;
-      transition: 0.2s;
-      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
-    }
-
-    .btn:hover {
-      background-color: #e6e6e6;
-    }
-
-    .footer {
-      font-size: 12px;
-      opacity: 0.7;
-      margin-bottom: 10px;
-    }
-  </style>
+.btn {
+  display: block;
+  background: white;
+  color: #0d2c6c;
+  padding: 18px;
+  margin: 15px 0;
+  border-radius: 12px;
+  text-decoration: none;
+  font-weight: bold;
+}
+</style>
 </head>
 
 <body>
-  <div class="container">
+<div class="container">
 
-    <!-- LOGO -->
-    <div class="logo">
-      <!-- Sustituye por la ruta de tu imagen -->
-      <img src="logo.png" alt="Saint Gobain">
-    </div>
+<div class="logo">
+  <img src="logo.png">
+</div>
 
-    <!-- TITULO -->
-    <div class="title">
-      LAMINADO
-    </div>
+<div class="title">LAMINADO</div>
 
-    <!-- BOTONES -->
-    <div class="buttons">
-      <a href="ensamble.html" class="btn">ENSAMBLE</a>
+<a href="ensamble.html" class="btn">ENSAMBLE</a>
 <a href="control.html" class="btn">CONTROL FINAL</a>
-    </div>
 
-    <!-- FOOTER -->
-    <div class="footer">
-      Checklist Digital
-    </div>
-
-  </div>
+</div>
 </body>
 </html>

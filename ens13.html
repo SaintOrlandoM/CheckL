@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Checklist</title>
+
+<style>
+body { margin:0; font-family:Arial; background:#0d2c6c; color:white; display:flex; justify-content:center;}
+.container { max-width:420px; width:100%; padding:15px;}
+.logo { text-align:center;}
+.logo img { width:130px; filter: brightness(0) invert(1);}
+.title { text-align:center; margin:10px 0 20px; font-size:22px;}
+
+.card {
+  background:white;
+  color:#0d2c6c;
+  border-radius:15px;
+  padding:20px;
+}
+
+label { display:block; margin-top:10px; font-weight:bold;}
+input, select {
+  width:100%;
+  padding:12px;
+  margin-top:5px;
+  border-radius:8px;
+  border:1px solid #ccc;
+}
+
+.checklist {
+  margin-top:20px;
+  border:2px dashed #0d2c6c;
+  padding:15px;
+  border-radius:10px;
+  text-align:center;
+}
+
+.btn {
+  margin-top:20px;
+  width:100%;
+  padding:15px;
+  background:#0d2c6c;
+  color:white;
+  border:none;
+  border-radius:10px;
+}
+
+.back { display:block; text-align:center; margin-top:15px; color:white;}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+<div class="logo">
+  <img src="logo.png">
+</div>
+
+<div class="title">LAMINADO</div>
+
+<div class="card">
+
+<label>Nombre</label>
+<input type="text" placeholder="Ingresa tu nombre">
+
+<label>Turno</label>
+<select>
+<option>Selecciona turno</option>
+<option>Turno 1</option>
+<option>Turno 2</option>
+<option>Turno 3</option>
+</select>
+
+<div class="checklist">
+Aquí irá el checklist
+</div>
+
+<button class="btn">Guardar</button>
+
+</div>
+
+<a href="index.html" class="back">← Regresar</a>
+
+</div>
+
+</body>
+</html>
